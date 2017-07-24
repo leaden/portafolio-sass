@@ -3,15 +3,55 @@
 	font-family:$body_font;
 }
 
-.seccion_uno{
-	padding-top: $padding;
 
-	h4, h5, p{
+.seccion_uno{
+	padding: $padding;
+		h4{
+			padding: $padding;
+		}
+		h4, h5, p{
 		color:$color_text_titulo;
 		text-align: $text-center;
-	}
+		}
+		.fa-th{
+			font-size:60px;
+			color:$fa_color_resposive;
+		}
+		.fa-th-list{
+			font-size:60px;
+			color:$fa_color_quality;
+		}
+		.fa-reorder{
+			font-size:60px;
+			color:$fa_color_support;
+		}
 }
 
 .seccion_dos{
 	padding-top: $padding;
+	p{
+		@include product();
+	}
+}
+
+
+.seccion_cuatro{
+	p{
+		@include product();
+	}
+}
+
+.seccion_seis{
+	img{
+		width:40%;
+	}
+	p{
+		@include product();
+	}
+}
+
+.seccion_ocho{
+	p{
+		@include product();
+	}
 }

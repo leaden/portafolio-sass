@@ -5810,12 +5810,44 @@ button.close {
   font-family: "Raleway", sans-serif; }
 
 .seccion_uno {
-  padding-top: 6%; }
+  padding: 6%; }
+  .seccion_uno h4 {
+    padding: 6%; }
   .seccion_uno h4, .seccion_uno h5, .seccion_uno p {
     color: #999;
     text-align: center; }
+  .seccion_uno .fa-th {
+    font-size: 60px;
+    color: #e91e63; }
+  .seccion_uno .fa-th-list {
+    font-size: 60px;
+    color: #00bcd4; }
+  .seccion_uno .fa-reorder {
+    font-size: 60px;
+    color: #4caf50; }
 
 .seccion_dos {
   padding-top: 6%; }
+  .seccion_dos p {
+    text-align: center;
+    line-height: 30px;
+    color: #999; }
+
+.seccion_cuatro p {
+  text-align: center;
+  line-height: 30px;
+  color: #999; }
+
+.seccion_seis img {
+  width: 40%; }
+.seccion_seis p {
+  text-align: center;
+  line-height: 30px;
+  color: #999; }
+
+.seccion_ocho p {
+  text-align: center;
+  line-height: 30px;
+  color: #999; }
 
 /*# sourceMappingURL=main.css.map */
